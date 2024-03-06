@@ -1,4 +1,7 @@
-import 'dotenv/config'
 import { consola } from 'consola'
+import { PORT } from './config/config.js'
+import app from './app.js'
 
-consola.success('ok')
+app.listen(PORT, function () {
+  consola.success(`Servidor listo en: http://localhost:${PORT}`)
+})
