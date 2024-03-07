@@ -1,9 +1,9 @@
 import { config } from 'dotenv'
 config()
 
-const ENV_MODE = process.env.MODE || 'DEV'
+const ENV_MODE = process.env.E_MODE || 'DEV'
 console.log('--------------------------')
-console.log(process.env.MODE)
+console.log(process.env.E_MODE)
 console.log('ENV_MODE = ', ENV_MODE)
 console.log('--------------------------')
 
