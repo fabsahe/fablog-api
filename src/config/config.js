@@ -2,7 +2,8 @@ import { config } from 'dotenv'
 config()
 
 const ENV_MODE = process.env.MODE || 'DEV'
-
+console.log('--------------------------')
+console.log(process.env.MODE)
 console.log('ENV_MODE = ', ENV_MODE)
 console.log('--------------------------')
 
