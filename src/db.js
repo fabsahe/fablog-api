@@ -7,14 +7,6 @@ import {
   DB_USER
 } from './config/config.js'
 
-console.log('++++++++++++')
-console.log(DB_DATABASE,
-  DB_HOST,
-  DB_PASSWORD,
-  DB_PORT,
-  DB_USER)
-console.log('++++++++++++++++')
-
 export const pool = createPool({
   host: DB_HOST,
   user: DB_USER,
