@@ -12,6 +12,10 @@ const login = async (req, res) => {
 
   try {
     const user = await authService.login(email)
+    console.log('++++++++++++++++++++++++++++++')
+    console.log('USER = ')
+    console.log(user)
+    console.log('++++++++++++++++++++++++++++++')
 
     const passwordMatch = user === null
       ? false
