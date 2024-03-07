@@ -3,6 +3,9 @@ config()
 
 const ENV_MODE = process.env.MODE || 'DEV'
 
+console.log('ENV_MODE = ', ENV_MODE)
+console.log('--------------------------')
+
 let port = null
 let dbHost = null
 let dbUser = null
