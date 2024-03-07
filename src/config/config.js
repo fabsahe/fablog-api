@@ -1,11 +1,7 @@
 import { config } from 'dotenv'
 config()
 
-const ENV_MODE = process.env.E_MODE || 'DEV'
-console.log('--------------------------')
-console.log(process.env.E_MODE)
-console.log('ENV_MODE = ', ENV_MODE)
-console.log('--------------------------')
+const ENV_MODE = 'PROD'
 
 let port = null
 let dbHost = null
